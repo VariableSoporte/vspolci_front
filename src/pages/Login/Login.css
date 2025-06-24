@@ -1,0 +1,37 @@
+.login {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.izquierda {
+  height: 100vh;
+  width: 60vw;
+  overflow: hidden;
+}
+.bg_izquierda{
+  height: 100vh;
+  width: 60vw;
+}
+.derecha {
+  height: 100vh;
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal{
+  display: block;
+  justify-items: center;
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
+.avatar_logo{
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
+.card_modal{
+  margin-top: -12vh;
+  padding-top: 10vh;
+}
+h1, h2, h3, h4 {
+  margin: 0;
+}

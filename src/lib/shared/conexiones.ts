@@ -1,0 +1,31 @@
+export const BaseUrl = {
+    'BASE_URL' : 'http://18.222.190.97:3000/'
+};
+
+export const CONEXION = {
+    'USUARIO_URL' : BaseUrl.BASE_URL + 'usuario/',
+    'LOGIN_URL' : BaseUrl.BASE_URL + 'login/',
+    'INSUMO_URL' : BaseUrl.BASE_URL + 'insumo/',
+    'BODEGA_URL' : BaseUrl.BASE_URL + 'bodega/',
+    'INVENTARIO_URL' : BaseUrl.BASE_URL + 'inventario/',
+    'REPORTE_URL' : BaseUrl.BASE_URL + 'reporte/'
+}
+
+export const CONEXION_INVENTARIO = {
+    'INVENTARIO_CONEXION_ENTREGA' : CONEXION.INVENTARIO_URL + 'enviar/',
+    'INVENTARIO_CONEXION_SOLICITUD' : CONEXION.INVENTARIO_URL + 'solicitud/',
+    'INVENTARIO_CONEXION_ESTADO' : CONEXION.INVENTARIO_URL + 'estados/',
+    'INVENTARIO_CONEXION_PEDIDO' : CONEXION.INVENTARIO_URL + 'pedidos/',
+    'INVENTARIO_CONEXION_APROBAR_SOLICITUD' : CONEXION.INVENTARIO_URL + 'aprobar_solicitud/'
+}
+
+export const CONEXION_REPORTES = {
+    'INVENTARIO_CONEXION_REPORTE_SOLICITUD' : CONEXION.REPORTE_URL + 'salida/',
+    'INVENTARIO_CONEXION_REPORTE_SOLICITUD_BODEGAS' : CONEXION.REPORTE_URL + 'salidasBodegas/',
+    'INVENTARIO_CONEXION_REPORTE_ENTREGAS' : CONEXION.REPORTE_URL + 'reporteEntregas/'
+}
+
+export const CONEXION_INSUMO = {
+    'INSUMO_CONEXION_BODEGA' : CONEXION.INSUMO_URL + 'porBodega/',
+    'INSUMO_CONEXION_KARDEX' : CONEXION.INSUMO_URL + 'kardex/'
+}
